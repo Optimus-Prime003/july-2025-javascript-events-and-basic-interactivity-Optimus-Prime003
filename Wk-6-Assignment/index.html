@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="A simple interactive web page with a signup form, counter, and dark mode toggle.">
+            <meta name="keywords" content="HTML, CSS, JavaScript, Signup Form, Counter, Dark Mode">
+            <meta name="author" content="Osarietinmen Odobo">
+            <title>Week 6 Assignment</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header>
+            <h1>This is an interactive Web Page for <br> Week 6 Assignment</h1>
+            </header>
+
+            <!-- Signup Form -->
+             <main>
+            <section>
+                <h2>Signup Form</h2>
+                <form id="signupForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name"><br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Enter your email"><br>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter password"><br>
+                <br>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" placeholder="Re-enter password"><br>
+                <br><br>
+                <button type="submit">Submit</button>
+                </form>
+                <p id="formMessage"></p>
+            </section>
+
+            <!-- Counter Feature -->
+            <section>
+                <h2>Click Counter</h2>
+                <button id="counterBtn">Click Me!</button>
+                <p>Count: <span id="count">0</span></p>
+            </section>
+
+            <!-- Dark Mode Toggle -->
+            <section>
+                <h2>Theme Toggle</h2>
+                <button id="toggleTheme">Toggle Dark/Light Mode</button>
+            </section>
+            </main>
+
+            <script src="script.js"></script>
+        </body>
+
+        <footer>
+            <p>&copy; September 2025 Osarietinmen Odobo. All rights reserved.</p>
+        </footer>
+    </html>
